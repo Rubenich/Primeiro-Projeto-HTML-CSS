@@ -1,0 +1,45 @@
+ :root{
+    --cor-primaria: #000;
+    --cor-secundaria: #2e3038;
+    --cor-terciaria: #fbe850;
+    --cor-header: #adadad;
+    --cor-letras: #f0f0f0;  
+}
+
+*{
+    margin 0;
+    padding 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-letras);   
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  
+
+  .cabecalho__menu {
+    float: right;
+    margin-right: 320px;
+  }
+
+  .cabecalho__autor {
+    float: left;
+    margin-left: 3.12rem;
+  }
+
+
+  
+ 
+
+
+  
+  
+  
