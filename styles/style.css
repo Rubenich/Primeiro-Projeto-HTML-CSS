@@ -19,27 +19,60 @@ body{
 
 
 .cabecalho {
-    display: flex;
-    justify-content: space-between;
-    gap: 32px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  padding: 2%;
+}
 
-  .cabecalho__menu {
-    float: right;
-    margin-right: 320px;
-  }
+.cabecalho__links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  color: var(--cor-header);
+}
+
+.cabecalho__contato {
+  display: flex;
+  border-radius: 5%;
+  border: 10px solid var(--cor-terciaria);
+  border-radius: 1px;
+  box-sizing: content-box;
+  background-color: var(--cor-terciaria);
+  color: var(--cor-primaria);
+  margin-right: 3.75rem;
+}
 
   .cabecalho__autor {
     float: left;
     margin-left: 3.12rem;
   }
 
-
-  
+  .conteudo{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin-left: 3.12rem;
+  }
  
+.conteudo__titulo{
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  font-style: normal;
+}
 
+.conteudo__titulo__continuacao{
+  margin: 0;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
 
+.conteudo__texto{
+  margin-bottom: 10px;
+  word-break: break-all;
+}
   
   
   
