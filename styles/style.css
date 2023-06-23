@@ -9,14 +9,21 @@
 *{
     margin 0;
     padding 0;
+    
 }
 
 body{
     box-sizing: border-box;
     background-color: var(--cor-primaria);
-    color: var(--cor-letras);   
+    color: var(--cor-letras); 
+    padding: 0 10% 0 10%; 
 }
-
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  margin-left: 3.12rem;
+  }
 
 .cabecalho {
   display: flex;
@@ -49,12 +56,7 @@ body{
     margin-left: 3.12rem;
   }
 
-  .conteudo{
-  display: flex;
-  flex-direction: column;
-  padding: 2%;
-  margin-left: 3.12rem;
-  }
+  
  
 .conteudo__titulo{
   font-size: 3.12rem;
@@ -88,7 +90,17 @@ body{
   .exemplos{
     display: flex;
     justify-content: space-between;
+    
+   
+  }
 
+  .exemplos__Yelp{
+   
+    width: 45%;
+  }
+
+  .exemplos__spense{
+    width: 45%;
   }
 
   .titulos{
@@ -96,6 +108,7 @@ body{
     justify-content: space-between;
     padding-top: 2%;
     margin-bottom: -0.5rem;
+    
   }
 
   .exemplos__spense__titulo{
@@ -106,10 +119,10 @@ body{
 
   .exemplos__yelp__titulo{
     font-size: 1.87rem;
-    width: 43.2%;
-    
+    width:45%;
+
   }
- .textos{
+  .textos{
   display: flex;
   justify-content: space-between;
   padding-top: 0.006rem;
@@ -123,5 +136,35 @@ body{
   .texto-yelp{
     font-size: 1.25rem;
     color: var(--cor-header);
-    width: 43.2%;
+    width: 45%;
+    
+  }
+
+  .caixa{
+    background-color: var(--cor-secundaria);
+  }  
+  .sobre__titulo{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-secundaria);
+    font-size: 25px;
+    padding-top: 5%;
+    
+  }
+  .sobre__texto{
+    position: relative;
+    bottom:1.87rem;
+    width: 45%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
+
+  .continuacao-texto{
+    width: 40%;
+    position: relative;
+    bottom: 380px;
+    background-color: var(--cor-secundaria);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    
   }
